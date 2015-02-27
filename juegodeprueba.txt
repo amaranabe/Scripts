@@ -1,18 +1,22 @@
+SCRIPTS
 
-Sobre scripts
-
-COMANDOS
+A. COMANDOS
 Cualquier comando que podamos utilizar en la linea de comandos se puede introducir en nuestro Script. 
 Se pueden utilizar muchas otras herramientas como operadores aritméticos, comparadores, estructuras condicionales, etc.
 
-PARAMETROS
+B. PARAMETROS
+En muchas ocasiones se necesita que los scripts reciban información para ejecutarlos, y para esto vamos a utilizar los parámetros de posición. 
+Se denominan de esta manera por el hecho que toman un numero como nombre de variable según su posición, de forma que el argumento numero 1 que pasemos al script sera la variable $1. 
+Para interactuar con los parámetros, éstas son las variables para utilizarse:
 
+$1 … $9 : Argumentos pasados al programa. 
+Si usamos las llaves “{}” para nombrar las variables el limite se puede extender
+$0 : Nombre del programa que se está ejecutando.
+$# : Número de argumentos que se han pasado al programa.
+$* : Todos los argumentos pasados al programa.
+$@ : Todos los argumentos pasados al programa pero teniendo en cuenta su separación.
 
-
-COMENTARIOS
+C. COMENTARIOS
 Los comentarios se añaden con el simbolo #
 Después de la almohadilla añadimos el texto que nos interese
 Se añaden antes de una instrucción para explicar la funcionalidad
-
-
-
